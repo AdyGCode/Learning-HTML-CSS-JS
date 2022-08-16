@@ -1,36 +1,57 @@
 # Exercise 05
 
-We are now going to add some comments to the HTML and CSS files.
+Before continuing, make sure that all steps so far are completed by checking your site as it stands against the image below:
 
-## Index file comments
 
-In the index file are adding some explanatory comments and information. Immediately after the `title` element add:
 
-```html
-<!-- 
-    Filename: ./index.html
-    Project:  PROJECT_NAME
-    Author:   YOUR_NAME
-    Created:  DD/MM/YYYY
-    Version:  1.0
--->
-```
+## Basic Styles
 
-Replace `PROJECT_NAME`, `YOUR_NAME` and the date (`DD/MM/YYYY`) with the appropriate content.
+Now we will do some basic styles.
 
-Next, after the above, ensure that there is a blank line and add:
+### Create fonts folder
+
+In the `assets` folder, create a new folder/directory called `fonts`.
+
+Put a `.keep` file into this folder.
+
+### Updating the index header
+
+Open the `index.html` file and modify the `head` section by adding in the following links to the Cairo and InknutAntiqua fonts:
 
 ```html
-    <!-- Fonts -->
+<!-- Local fonts -->
 
-    <!-- CSS -->
-
-    <!-- JS (Deferred) -->
+<!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;700;900&display=swap" 
+      rel="stylesheet">
 ```
 
-Again leave a blank line between each comment and after the last one.
 
-## Commit and Push
+## Whole of Page defaults
+Open the `site.css` file from the `assets\css\` folder/directory.
 
-Commit and push your changes, ensuring you have an explanatory message and extra comments explaining what you have done.
+Move to the top of the CSS file and add:
+
+```css
+html {
+    font-family:  
+}
+```
+
+## Creating site classes
+
+
+Add the class names from the index page.
+
+Remember that classes start with full stops (`.`).  For example:
+```css
+.demo-class {
+    /* css definitions */
+}
+```
+Make sure that the classes with `site-` are listed first.
 
