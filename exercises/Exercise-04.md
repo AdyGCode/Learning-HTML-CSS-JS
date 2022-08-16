@@ -2,6 +2,8 @@
 
 Next is the fist bit of content for the main.
 
+Replace the `div` that is between the header and footer with `main`.
+
 Between the `main` open and close tags, you will add the following:
 
 - a `div` with the class of `hero`.
