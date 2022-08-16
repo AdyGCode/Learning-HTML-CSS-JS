@@ -77,3 +77,44 @@ Select Git and click OK
 ![img_8.png](img_8.png)
 
 Version Control is initialised.
+
+## Enable PlantUML and Mermaid Syntax
+
+Open seettings in WebStorm using `CTRL`+`ALT`+`S` (`CMD`+`,` on Mac)
+
+In the search type in Plant, then navigate to the settings as shown:
+
+![img_9.png](img_9.png)
+
+Click on Install for PlantUML and Mermaid UML support
+
+Then tick either or both to select them
+
+Click OK to apply the settings changes.
+
+
+## Plugins for WebStorm
+
+Open the settings (see above)
+
+Click on "Plugins"
+
+Click on "Marketplace"
+
+In the marketplace search box search for and install the following:
+
+- .ignore
+- CSV
+- Rainbow Brackets
+- Indent Rainbow
+- JSON Helper
+- Markdown Editor
+- Paste Images into Markdown
+- Zero Width Character locator
+- Yet another emoji support
+- GitToolBox
+- Extra ToolWindow Colorful Icons
+- Atom Material Icons
+- .env files support
+
+You may need to restart the IDE after making plugin changes and/or updates.

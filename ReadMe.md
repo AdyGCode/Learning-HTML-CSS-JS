@@ -3,6 +3,9 @@
 Description here...
 
 ## Folder Structure
+
+The following is an extract fo the site folder structure.
+
 ```text
 Root -+- index.html
       |
@@ -18,6 +21,8 @@ Root -+- index.html
                  |
                  +- media -+- 
 ```
+
+In Webstorm the following will render as a mind-map diagram showing the folders and files. 
 
 ```plantuml
 @startmindmap
@@ -65,6 +70,28 @@ Create .gitignore with required file patterns.
 > Click OK when all required plugins are installed.
 > Sometimes the IDE will need to restart to apply the changes.
 
+## Adding the .gitignore
+
+Right mosue button on the Project Name
+
+File
+
+New
+
+.ignore
+
+GitIgnore (at top)
+
+![img.png](img.png)
+
+Select the options below
+
+![img_1.png](img_1.png)
+
+Edit the .gitignore file and add at the top:
+
+![img_2.png](img_2.png)
+
 
 ## .keep
 This file is used to force folders that are 'empty' to be committed...
@@ -91,20 +118,3 @@ Create it as a New Text file with the filename `.keep`.
 - Atom Material Icons
 - .env files support
 
-
-## Useful Commands
-
-### Make Directory/Folder
-In DOS command line:
-```shell
-mkdir folder_name
-```
-DOS Example:
-```shell
-mkdir assets assets\img assets\js assets\css assets\media
-mkdir about
-```
-Linux Example:
-```shell
-mkdir -p assets/{img,js,media,css} about
-```
