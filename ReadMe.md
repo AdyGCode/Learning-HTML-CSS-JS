@@ -19,6 +19,33 @@ Root -+- index.html
                  +- media -+- 
 ```
 
+```plantuml
+@startmindmap
+
+* Root/Project Folder
+ *_ index.html
+ *_ ReadMe.md
+ *_ CheatSheet.md
+ * about
+  *_ index.html
+ * assets
+  * css
+   *_ site.css
+   *_ reset.css
+  * img
+   *_ .keep
+  * js
+   *_ .keep
+  * fonts
+   *_ .keep
+  * media
+   *_ .keep
+ * ...folder_name...
+  *_ .keep
+
+@endmindmap
+```
+
 ## .gitignore
 
 Create .gitignore with required file patterns.
