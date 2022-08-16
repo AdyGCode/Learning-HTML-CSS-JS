@@ -64,3 +64,16 @@ Click on the project root folder.
 Use `ALT`+`INSERT` and select `FILE` again
 
 Type in `CheatSheet.md` as the filename.
+
+
+## Initialising Git Repo
+
+Click on VCS and then `Enable Version Control Integration`.
+
+![img_7.png](img_7.png)
+
+Select Git and click OK
+
+![img_8.png](img_8.png)
+
+Version Control is initialised.
