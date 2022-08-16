@@ -15,3 +15,5 @@ In the HEAD make the title "WebTech".
 Create a folder called `exercises`, and place this `Exercise-01.md` file into the folder.
 
 Add and commit the changes with a suitable message.
+
+Push teh changes to your Repository
