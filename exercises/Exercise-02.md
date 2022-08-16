@@ -16,18 +16,13 @@ Hint:
 <link rel="stylesheet" href="./assets/css/reset.css">
 ```
 
-### header
+### Site Header
 
+Modify the page header to have a class of `site-header`.
 
-Add:
-- header
-- container div
-- footer
+Nesting inside the site header add:
+- A `div` with a class of `branding` and the content `WebTech`.
+- A `nav` element with an unordered list containing four list items.
+- Each list item is to have an anchor `a` element with a `href` of `#` and text of `Link X`.
 
-In the HEAD make the title "WebTech".
-
-Create a folder called `exercises`, and place this `Exercise-01.md` file into the folder.
-
-Add and commit the changes with a suitable message.
-
-Push teh changes to your Repository
+Commit the changes with a suitable message, and push them to your remote.

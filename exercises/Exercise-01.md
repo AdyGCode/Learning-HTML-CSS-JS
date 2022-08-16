@@ -16,4 +16,4 @@ Create a folder called `exercises`, and place this `Exercise-01.md` file into th
 
 Add and commit the changes with a suitable message.
 
-Push teh changes to your Repository
+Push the changes to your Repository.
